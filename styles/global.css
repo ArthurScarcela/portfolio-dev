@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #16181D;
+
+}
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 :root{
