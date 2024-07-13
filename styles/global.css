@@ -11,6 +11,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
+
 }
 
 :root{
@@ -51,4 +52,16 @@ main {
     font: var(--title-sm);
     color: var(--gray-600);
     margin-bottom: 8px;
+}
+
+.arrow-top-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/icons/arrow-top-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 24px;
 }
