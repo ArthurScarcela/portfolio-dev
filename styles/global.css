@@ -41,3 +41,14 @@ main {
   --text-sm: 400 14px/140% var(--font-maven-pro);
 
 }
+
+.subtitle{
+  font: var(--text-sm);
+  color: var(--gray-500);
+}
+
+.card-title{
+    font: var(--title-sm);
+    color: var(--gray-600);
+    margin-bottom: 8px;
+}
